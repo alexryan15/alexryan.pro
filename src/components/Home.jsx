@@ -14,7 +14,11 @@ const Home = () => {
           I will be working as a Software Engineer Intern for Paylocity in Chicago, IL.
         </p>
         <div>
-          <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Projects <HiArrowNarrowRight className='ml-3'/></button>
+          <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Projects 
+            <span className='group-hover:rotate-90 duration-300'>
+              <HiArrowNarrowRight className='ml-3'/>
+            </span>
+          </button>
         </div>
       </div>
     </div>
