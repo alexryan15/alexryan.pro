@@ -24,7 +24,7 @@ const Home = () => {
           <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
             View Projects
             <span className="group-hover:rotate-90 duration-500">
-              <HiArrowNarrowRight className="ml-3 scale-110" />
+              <HiArrowNarrowRight className="ml-3 scale-105" />
             </span>
           </button>
           </Link>
