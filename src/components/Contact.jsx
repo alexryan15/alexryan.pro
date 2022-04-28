@@ -5,13 +5,13 @@ const Contact = () => {
     <div name="contact" className='w-full h-screen flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/95df4ea5-fe4b-4ef1-b0b5-d905a47bdce3" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-grap-300'>Contact</p>
-                <p className='text-grap-300 pt-4'>Submit the form below or email at alexryan1717@hotmail.com</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#ed9637] text-white caret-transparent'>Contact</p>
+                <p className='text-white pt-4 caret-transparent'>Submit the form below or email at alexryan1717@hotmail.com</p>
             </div>
-            <input className='p-1 bg-[#ccd6f6] text-black' type="text" placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#ccd6f6] text-black' type="email" placeholder='Email' name='email' />
-            <textarea className='bg-[#ccd6f6] p-2 text-black' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-2 my-8 mx-auto flex items-center'>Send Message</button>
+            <input className='p-2 bg-[#ccd6f6] text-black rounded-lg' type="text" placeholder='Name' name='name' required />
+            <input className='my-4 p-2 bg-[#ccd6f6] text-black rounded-lg' type="email" placeholder='Email' name='email' required />
+            <textarea className='bg-[#ccd6f6] p-2 text-black rounded-lg' name="message" rows="10" placeholder='Message' required ></textarea>
+            <button className='text-white border-2 hover:bg-[#ed9637] hover:border-[#ed9637] px-4 py-2 my-8 mx-auto flex items-center rounded-lg'>Send Message</button>
         </form>
     </div>
   )
