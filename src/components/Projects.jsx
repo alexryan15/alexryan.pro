@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="projects" className="w-full h-screen text-gray-300">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div>
@@ -13,7 +13,7 @@ const Projects = () => {
 
         {/* Projects Container */}
         <div className="w-full grid grid-cols-1 gap-4 py-8">
-          <div className="leading-7 caret-transparent rounded-lg border-2 border-pink-600 shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+          <div className="leading-7 caret-transparent rounded-lg border-2 border-black shadow-md shadow-[#040c16] bg-[#0a192f] hover:scale-105 duration-500">
             <img className="w-20" />
             <p className="mx-4 my-2">
                 Portfolio Website <br /> 
@@ -23,7 +23,7 @@ const Projects = () => {
                 <a className="text-pink-600" target="_blank" href="https://github.com/alexryan-15/alexryan-15.github.io">SOURCE CODE</a>
             </p>
           </div>
-          <div className="leading-7 caret-transparent rounded-lg border-2 border-pink-600 shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+          <div className="leading-7 caret-transparent rounded-lg border-2 border-black shadow-md shadow-[#040c16] bg-[#0a192f] hover:scale-105 duration-500">
             <img className="w-20" />
             <p className="mx-4 my-2">
                 Record Scraper <br />
@@ -32,7 +32,7 @@ const Projects = () => {
                 <a className="text-pink-600" target="_blank" href="https://github.com/alexryan-15/Record-Scraper">SOURCE CODE</a>
             </p>
           </div>
-          <div className="leading-7 caret-transparent rounded-lg border-2 border-pink-600 shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+          <div className="leading-7 caret-transparent rounded-lg border-2 border-black shadow-md shadow-[#040c16] bg-[#0a192f] hover:scale-105 duration-500">
             <img className="w-20" />
             <p className="mx-4 my-2">
                 Python Leetcode Solutions <br />
@@ -41,14 +41,14 @@ const Projects = () => {
                 <a className="text-pink-600" target="_blank" href="https://github.com/alexryan-15/python-leetcode-solutions">SOURCE CODE</a>
             </p>
           </div>
-          <div className="leading-7 caret-transparent rounded-lg border-2 border-pink-600 shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+          <div className="leading-7 caret-transparent rounded-lg border-2 border-black shadow-md shadow-[#040c16] bg-[#0a192f] hover:scale-105 duration-500">
             <img className="w-20" />
             <p className="mx-4 my-2">
                 Room Scheduler <br />
                 As part of a final course project, I created a mock room scheduler which allowed users to reserve classrooms for use. The project, built with Java, MySQL, and Java Swing, allowed users to request a classroom to use based on the number of seats needed. The code would attempt to find a room available in the database, and if none were, the user would be put on a waitlist. Upon a room becoming available, the user's waitlist entry was confirmed to a reservation. This project taught me a lot about relational databases and the basics of user interfaces. Due to University restrictions, I am unable to provide any source code.
             </p>
           </div>
-          <div className="leading-7 caret-transparent rounded-lg border-2 border-pink-600 shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+          <div className="leading-7 caret-transparent rounded-lg border-2 border-black shadow-md shadow-[#040c16] bg-[#0a192f] hover:scale-105 duration-500">
             <img className="w-20" />
             <p className="mx-4 my-2">
                 Malloc Reimplementation <br />
