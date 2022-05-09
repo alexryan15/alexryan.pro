@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,29 +14,19 @@ const Navbar = () => {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
+            <a href="/">Home</a>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
+        <a href="/about">About</a>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
+        <a href="/skills">Skills</a>
         </li>
         <li>
-          <Link to="projects" smooth={true} duration={500}>
-            Projects
-          </Link>
+        <a href="/projects">Projects</a>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+        <a href="/contact">Contact</a>
         </li>
       </ul>
 
@@ -55,29 +44,19 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
+        <a href="/">Home</a>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
+        <a href="/about">About</a>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
+        <a href="/skills">Skills</a>
         </li>
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
-            Projects
-          </Link>
+        <a href="/projects">Projects</a>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+        <a href="/contact">Contact</a>
         </li>
       </ul>
 
