@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -9,7 +10,9 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 caret-transparent">
-      <div>{/* <img src={Logo} alt="Logo" style={{width: '50px'}} /> */}</div>
+      <div>
+        <img src={Logo} alt="Logo" style={{ width: "4rem" }} />
+      </div>
 
       {/* Menu */}
       <ul className="hidden md:flex">
