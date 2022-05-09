@@ -14,19 +14,19 @@ const Navbar = () => {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-            <a href="/">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-        <a href="/about">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-        <a href="/skills">Skills</a>
+          <a href="/skills">Skills</a>
         </li>
         <li>
-        <a href="/projects">Projects</a>
+          <a href="/projects">Projects</a>
         </li>
         <li>
-        <a href="/contact">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 
@@ -44,19 +44,19 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-        <a href="/">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="py-6 text-4xl">
-        <a href="/about">About</a>
+          <a href="/about">About</a>
         </li>
         <li className="py-6 text-4xl">
-        <a href="/skills">Skills</a>
-        </li>
-        <li className='py-6 text-4xl'>
-        <a href="/projects">Projects</a>
+          <a href="/skills">Skills</a>
         </li>
         <li className="py-6 text-4xl">
-        <a href="/contact">Contact</a>
+          <a href="/projects">Projects</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 
@@ -68,6 +68,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/alex-ryan-1a2a29190/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -77,6 +78,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/alexryan-15"
               target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -86,6 +88,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:alexryan1717@hotmail.com"
               target="_blank"
+              rel="noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -95,6 +98,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/file/d/1r9kJjlFDFbetGL1qI2ZaGTAnFHmZM55S/view?usp=sharing"
               target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
