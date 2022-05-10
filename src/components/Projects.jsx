@@ -9,7 +9,7 @@ const Projects = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div>
-          <p className="caret-transparent text-4xl font-bold inline border-b-4 border-[#ed9637]">
+          <p className="caret-transparent text-4xl font-bold inline border-b-4 border-[#06cdd6]">
             Projects
           </p>
         </div>
@@ -23,7 +23,7 @@ const Projects = () => {
               Tailwind CSS.
               <br />
               <a
-                className="text-[#ed9637]"
+                className="text-[#06cdd6]"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/alexryan-15/alexryan-15.github.io"
@@ -39,7 +39,7 @@ const Projects = () => {
               using Python and the BeautifulSoup library.
               <br />
               <a
-                className="text-[#ed9637]"
+                className="text-[#06cdd6]"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/alexryan-15/Record-Scraper"
@@ -55,7 +55,7 @@ const Projects = () => {
               Python.
               <br />
               <a
-                className="text-[#ed9637]"
+                className="text-[#06cdd6]"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/alexryan-15/python-leetcode-solutions"

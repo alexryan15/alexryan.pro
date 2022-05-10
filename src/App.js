@@ -6,6 +6,8 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import { Routes, Route } from "react-router-dom";
 
+// MASTER ACCENT COLOR = #06cdd6
+
 function App() {
   return (
     <div>
