@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -16,15 +17,15 @@ const About = () => {
             club's finances.
           </p>
           <p className="py-2 text-gray-600">
-            In the summer of 2022, I will begin my career by working for
-            Paylocity as a Software Engineer Intern in Chicago, IL. Although my
-            position is remote, I will be moving to the Chicago to get away from
-            home and experience the city lifestyle. Upon receiving my degree, I
+            I am currently working for Paylocity as a Software Engineer Intern
+            on their Performance Conversation team. Upon receiving my degree, I
             plan to pursue a full-time career as a Software Engineer.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            Check out some of my latest projects.
-          </p>
+          <Link href="/#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Check out some of my latest projects.
+            </p>
+          </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img
