@@ -15,6 +15,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
+      // TODO: replace project directories
       router.asPath === "/property" ||
       router.asPath === "/crypto" ||
       router.asPath === "/netflix" ||
@@ -52,15 +53,9 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
-          <Image
-            src="/../public/assets/tailwind.png"
-            alt="/"
-            width="125"
-            height="50"
-          />
-        </Link>
+      {/* Normal nav links */}
+      <div className="flex justify-between items-center w-full h-full px-2 pr-8 2xl:px-16">
+        <div>{/* TODO: Insert navbar image */}</div>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
@@ -103,14 +98,16 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
+              <div></div>
+              {/* TODO: replace image for mobile menu */}
+              {/* <Link href="/">
                 <Image
                   src="/../public/assets/tailwind.png"
                   width="87"
                   height="35"
                   alt="/"
                 />
-              </Link>
+              </Link> */}
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
@@ -120,6 +117,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4"></div>
           </div>
+          {/* Mobile Links */}
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
@@ -148,43 +146,48 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
+            {/* Socials in mobile menu */}
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                <a
                   href="https://www.linkedin.com/in/alex-ryan-1a2a29190/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaLinkedinIn />
-                </div>
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                </a>
+                <a
                   href="https://github.com/alexryan-15"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaGithub />
-                </div>
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </a>
+                <a
                   href="mailto:alexryan1717@hotmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <AiOutlineMail />
-                </div>
-                <div
-                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </a>
+                <a
                   href="https://drive.google.com/file/d/1r9kJjlFDFbetGL1qI2ZaGTAnFHmZM55S/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <BsFillPersonLinesFill />
-                </div>
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <BsFillPersonLinesFill />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
