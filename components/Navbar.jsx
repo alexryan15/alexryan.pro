@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [navBg, setNavBg] = useState("#white");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
@@ -22,9 +22,9 @@ const Navbar = () => {
       router.asPath === "/twitch"
     ) {
       setNavBg("transparent");
-      setLinkColor("#ecf0f3");
+      setLinkColor("#white");
     } else {
-      setNavBg("#ecf0f3");
+      setNavBg("#white");
       setLinkColor("#1f2937");
     }
   }, [router]);
@@ -54,25 +54,21 @@ const Navbar = () => {
       }
     >
       {/* Normal nav links */}
-      <div className="flex justify-between items-center w-full h-full px-2 pr-8 2xl:px-16">
+      <div className="bg-white flex justify-between items-center w-full h-full px-2 pr-8 2xl:px-16">
         <div>{/* TODO: Insert navbar image */}</div>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm hover:text-[#7510F7]">HOME</li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm hover:text-[#7510F7]">ABOUT</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Projects
-              </li>
+              <li className="ml-10 text-sm hover:text-[#7510F7]">PROJECTS</li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
-              </li>
+              <li className="ml-10 text-sm hover:text-[#7510F7]">CONTACT</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -89,8 +85,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              ? " fixed right-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
+              : "fixed right-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
           <div>

@@ -24,7 +24,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full border-2 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:border-[#7510F7]">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -33,7 +33,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full border-2 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:border-[#7510F7]">
                 <FaGithub />
               </div>
             </a>
@@ -42,7 +42,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full border-2 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:border-[#7510F7]">
                 <AiOutlineMail />
               </div>
             </a>
@@ -51,7 +51,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="rounded-full border-2 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:border-[#7510F7]">
                 <BsFillPersonLinesFill />
               </div>
             </a>
