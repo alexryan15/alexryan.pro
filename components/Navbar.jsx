@@ -117,7 +117,7 @@ const Navbar = () => {
             {/* Socials in mobile menu */}
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#7510F7]">
-                Let's Connect
+                Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a

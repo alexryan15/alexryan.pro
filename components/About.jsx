@@ -10,7 +10,7 @@ const About = () => {
             ABOUT
           </h1>
           <p className="py-8 pt-4 text-gray-600 text-xl text-center font-light">
-            Hi, I'm Alex. I'm a junior at Penn State University studying
+            Hi, I&#39;m Alex. I'm a junior at Penn State University studying
             Computer Science. I am currently working for Paylocity as a Software
             Engineer Intern on their Performance Conversation team.
           </p>
