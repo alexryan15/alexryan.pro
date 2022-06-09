@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const ProjectItem = ({ title, description, src }) => {
-  const srcCheck = "";
+  var srcCheck = "";
 
   if (src) {
     srcCheck = "View Source";
