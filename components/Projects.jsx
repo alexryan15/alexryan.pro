@@ -11,10 +11,25 @@ const Projects = () => {
           Projects
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem title="Example 1" projectUrl="/property" />
-          <ProjectItem title="Example 2" projectUrl="/crypto" />
-          <ProjectItem title="Example 3" projectUrl="/netflix" />
-          <ProjectItem title="Example 4" projectUrl="/twitch" />
+          <ProjectItem
+            title="Portfolio Website"
+            description="This website that was built with React, Next.js, and Tailwind CSS."
+            src="https://github.com/alexryan-15/alexryan-15.github.io"
+          />
+          <ProjectItem
+            title="Record Scraper"
+            description="A web scraper for vinyl records, built with Python and Beautiful Soup."
+            src="https://github.com/alexryan-15/Record-Scraper"
+          />
+          <ProjectItem
+            title="Leetcode Solutions"
+            description="A repository to eventually hold all Leetcode solutions in Python."
+            src="https://github.com/alexryan-15/python-leetcode-solutions"
+          />
+          <ProjectItem
+            title="Room Scheduler"
+            description="Built a mock room scheduler as a final course project with Java and MySQL. Source not available per University rules."
+          />
         </div>
       </div>
     </div>

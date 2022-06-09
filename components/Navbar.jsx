@@ -9,25 +9,6 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#white");
-  const [linkColor, setLinkColor] = useState("#1f2937");
-  const router = useRouter();
-
-  useEffect(() => {
-    if (
-      // TODO: replace project directories
-      router.asPath === "/property" ||
-      router.asPath === "/crypto" ||
-      router.asPath === "/netflix" ||
-      router.asPath === "/twitch"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#white");
-    } else {
-      setNavBg("#white");
-      setLinkColor("#1f2937");
-    }
-  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -46,10 +27,9 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
+          ? "fixed w-full h-20 shadow-lg z-[100]"
           : "fixed w-full h-20 z-[100]"
       }
     >
@@ -57,7 +37,7 @@ const Navbar = () => {
       <div className="bg-white flex justify-between items-center w-full h-full px-2 pr-8 2xl:px-16">
         <div>{/* TODO: Insert navbar image */}</div>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm hover:text-[#7510F7]">HOME</li>
             </Link>
