@@ -14,9 +14,11 @@ const About = () => {
             Computer Science. I am currently working for Paylocity as a Software
             Engineer Intern on their Performance Conversation team.
           </p>
-          <div className="max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-[#7510F7]">
+          <div className="text-lg font-light max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-[#7510F7]">
             <div>
-              <p className="text-[#7510F7] text-bold py-2">Languages</p>
+              <p className="text-[#7510F7] text-xl font-normal py-2">
+                Languages
+              </p>
               <p>Python</p>
               <p>JavaScript</p>
               <p>Java</p>
@@ -24,13 +26,17 @@ const About = () => {
               <p>C</p>
             </div>
             <div className="border-l border-r border-[#7510F7]">
-              <p className="text-[#7510F7] text-bold py-2">Technologies</p>
+              <p className="text-[#7510F7] text-xl font-normal py-2">
+                Technologies
+              </p>
               <p>React</p>
               <p>.NET</p>
               <p>SQL</p>
             </div>
             <div>
-              <p className="text-[#7510F7] text-bold py-2">Dev Tools</p>
+              <p className="text-[#7510F7] text-xl font-normal py-2">
+                Dev Tools
+              </p>
               <p>Github</p>
               <p>Bitbucket</p>
               <p>Linux</p>
