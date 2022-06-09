@@ -15,13 +15,18 @@ const Contact = () => {
         <div className="border-2 rounded-xl justify-center gap-8">
           <div className="w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form
+                method="POST"
+                action="https://getform.io/f/52c99319-15fa-4fb0-a280-6feceb9a7fe7"
+              >
                 <div className="gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-[#7510F7]"
                       type="text"
+                      name="name"
+                      required
                     />
                   </div>
                 </div>
@@ -30,13 +35,17 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-[#7510F7]"
                     type="email"
+                    name="email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#7510F7]"
-                    rows="10"
+                    rows="8"
+                    name="messagee"
+                    required
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
