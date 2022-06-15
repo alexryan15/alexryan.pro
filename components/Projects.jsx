@@ -22,9 +22,9 @@ const Projects = () => {
             src="https://github.com/alexryan-15/Record-Scraper"
           />
           <ProjectItem
-            title="Leetcode Solutions"
-            description="A repository to eventually hold all Leetcode solutions in Python."
-            src="https://github.com/alexryan-15/python-leetcode-solutions"
+            title="Leetcode Blind 75"
+            description="Solutions to the Leetcode Blind 75 problems in various languages."
+            src="https://github.com/alexryan-15/leetcode-blind-75"
           />
           <ProjectItem
             title="Room Scheduler"
