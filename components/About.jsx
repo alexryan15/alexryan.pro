@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 const About = () => {
   return (
@@ -9,12 +8,12 @@ const About = () => {
           <h1 className="text-center text-3xl py-4 tracking-widest text-[#7510F7]">
             ABOUT
           </h1>
-          <p className="py-8 pt-4 text-gray-600 text-xl text-center font-light">
+          <p className="py-8 pt-4 text-black text-lg text-center font-normal">
             Hi, I&#39;m Alex. I&#39;m a junior at Penn State University studying
             Computer Science. I am currently working for Paylocity as a Software
-            Engineer Intern on their Performance Conversation team.
+            Engineer Intern on the Performance Management team.
           </p>
-          <div className="text-lg font-light max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-[#7510F7]">
+          <div className="text-md text-black font-normal max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-[#7510F7]">
             <div>
               <p className="text-[#7510F7] text-xl font-normal py-2">
                 Languages
@@ -22,6 +21,7 @@ const About = () => {
               <p>Python</p>
               <p>JavaScript</p>
               <p>Java</p>
+              <p>Go</p>
               <p>C#</p>
               <p>C</p>
             </div>
@@ -30,6 +30,7 @@ const About = () => {
                 Technologies
               </p>
               <p>React</p>
+              <p>Redux</p>
               <p>.NET</p>
               <p>SQL</p>
             </div>
@@ -41,6 +42,7 @@ const About = () => {
               <p>Bitbucket</p>
               <p>Linux</p>
               <p>Jira</p>
+              <p>Nano</p>
               <p></p>
             </div>
           </div>

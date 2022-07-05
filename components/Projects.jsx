@@ -1,11 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full h-screen">
+    <div id="projects" className="w-full min-h-screen">
       <div className="max-w-[1240px] mx-auto pt-36">
         <h2 className="text-3xl pb-8 text-center tracking-widest uppercase text-[#7510F7]">
           Projects
@@ -18,13 +16,13 @@ const Projects = () => {
           />
           <ProjectItem
             title="Record Scraper"
-            description="A web scraper for vinyl records, built with Python and Beautiful Soup."
+            description="A web scraper build with Python and Beautiful Soup."
             src="https://github.com/alexryan-15/Record-Scraper"
           />
           <ProjectItem
             title="Leetcode Blind 75"
-            description="Solutions to the Leetcode Blind 75 problems in various languages."
-            src="https://github.com/alexryan-15/leetcode-blind-75"
+            description="Solutions to Neetcode's 150 Leetcode questions for interview prep."
+            src="https://github.com/alexryan-15/neetcode-150-solutions"
           />
           <ProjectItem
             title="Room Scheduler"

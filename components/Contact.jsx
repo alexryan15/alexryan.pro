@@ -44,7 +44,7 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#7510F7]"
                     rows="8"
-                    name="messagee"
+                    name="message"
                     required
                   ></textarea>
                 </div>
