@@ -5,7 +5,6 @@ import Contact from '../components/Contact'
 import Main from '../components/Main'
 import Projects from '../components/Projects'
 
-
 export default function Home() {
   return (
     <div>
@@ -14,11 +13,11 @@ export default function Home() {
         <meta name="description" content="Portfolio Website" />
         <link rel="icon" href="/logo.png" />
       </Head>
-    <Navbar />
-    <Main />
-    <About />
-    <Projects />
-    <Contact />
+      <Navbar />
+      <Main />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   )
 }
