@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full">
       <div className="w-11/12 md:w-full flex-1 place-items-center max-w-[50rem] m-auto px-2 py-16">
-        <h2 className="text-3xl pb-8 text-center tracking-widest uppercase text-[#7510F7]">
+        <h2 className="text-3xl pb-8 text-center tracking-widest uppercase text-HIGHLIGHT">
           Contact
         </h2>
         <div className="border-2 rounded-xl justify-center gap-8">
@@ -23,7 +23,7 @@ const Contact = () => {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-[#7510F7]"
+                      className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-HIGHLIGHT"
                       type="text"
                       name="name"
                       required
@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-[#7510F7]"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-HIGHLIGHT"
                     type="email"
                     name="email"
                     required
@@ -42,7 +42,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-[#7510F7]"
+                    className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-HIGHLIGHT"
                     rows="8"
                     name="message"
                     required

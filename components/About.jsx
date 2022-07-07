@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flexitems-center py-16">
       <div className="max-w-[60rem] m-auto gap-8">
         <div className="">
-          <h1 className="text-center text-3xl py-4 tracking-widest text-[#7510F7]">
+          <h1 className="text-center text-3xl py-4 tracking-widest text-HIGHLIGHT">
             ABOUT
           </h1>
           <p className="py-8 pt-4 text-black text-lg text-center font-normal">
@@ -13,9 +13,9 @@ const About = () => {
             Computer Science. I am currently working for Paylocity as a Software
             Engineer Intern on the Performance Management team.
           </p>
-          <div className=" text-md text-black font-normal max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-[#7510F7]">
+          <div className=" text-md text-black font-normal max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-HIGHLIGHT">
             <div>
-              <p className="text-[#7510F7] text-xl font-normal py-2">
+              <p className="text-HIGHLIGHT text-xl font-normal py-2">
                 Languages
               </p>
               <p>Python</p>
@@ -25,8 +25,8 @@ const About = () => {
               <p>C#</p>
               <p>C</p>
             </div>
-            <div className="md:border-l md:border-r border-[#7510F7]">
-              <p className="text-[#7510F7] text-xl font-normal py-2">
+            <div className="md:border-l md:border-r border-HIGHLIGHT">
+              <p className="text-HIGHLIGHT text-xl font-normal py-2">
                 Technologies
               </p>
               <p>React</p>
@@ -35,7 +35,7 @@ const About = () => {
               <p>SQL</p>
             </div>
             <div>
-              <p className="text-[#7510F7] text-xl font-normal py-2">
+              <p className="text-HIGHLIGHT text-xl font-normal py-2">
                 Dev Tools
               </p>
               <p>Github</p>

@@ -39,16 +39,16 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm hover:text-[#7510F7]">HOME</li>
+              <li className="ml-10 text-sm hover:text-HIGHLIGHT">HOME</li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm hover:text-[#7510F7]">ABOUT</li>
+              <li className="ml-10 text-sm hover:text-HIGHLIGHT">ABOUT</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm hover:text-[#7510F7]">PROJECTS</li>
+              <li className="ml-10 text-sm hover:text-HIGHLIGHT">PROJECTS</li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm hover:text-[#7510F7]">CONTACT</li>
+              <li className="ml-10 text-sm hover:text-HIGHLIGHT">CONTACT</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -116,7 +116,7 @@ const Navbar = () => {
             </ul>
             {/* Socials in mobile menu */}
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#7510F7]">
+              <p className="uppercase tracking-widest text-HIGHLIGHT">
                 Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full min-h-screen">
       <div className="max-w-[1240px] mx-auto pt-36">
-        <h2 className="text-3xl pb-8 text-center tracking-widest uppercase text-[#7510F7]">
+        <h2 className="text-3xl pb-8 text-center tracking-widest uppercase text-HIGHLIGHT">
           Projects
         </h2>
         <div className="grid md:grid-cols-2 gap-8 place-items-center">
