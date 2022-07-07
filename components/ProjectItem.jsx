@@ -8,7 +8,7 @@ const ProjectItem = ({ title, description, src }) => {
   }
 
   return (
-    <div className="text-lg justify-center h-[8rem] md:w-full shadow-lg shadow-gray-400 
+    <div className="text-lg items-center h-[10rem] md:h-[8rem] w-5/6 md:w-full shadow-lg shadow-gray-400 
                     rounded-xl p-4 border-2 hover:border-[#7510F7] hover:scale-105 duration-500">
       <h3 className="text-[#7510F7]">{title}</h3>
       <p className="font-normal py-2">{description}</p>

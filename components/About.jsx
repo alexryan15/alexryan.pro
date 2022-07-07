@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flexitems-center py-16">
       <div className="max-w-[60rem] m-auto gap-8">
         <div className="">
           <h1 className="text-center text-3xl py-4 tracking-widest text-[#7510F7]">
@@ -13,7 +13,7 @@ const About = () => {
             Computer Science. I am currently working for Paylocity as a Software
             Engineer Intern on the Performance Management team.
           </p>
-          <div className="text-md text-black font-normal max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-[#7510F7]">
+          <div className=" text-md text-black font-normal max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-[#7510F7]">
             <div>
               <p className="text-[#7510F7] text-xl font-normal py-2">
                 Languages
@@ -25,7 +25,7 @@ const About = () => {
               <p>C#</p>
               <p>C</p>
             </div>
-            <div className="border-l border-r border-[#7510F7]">
+            <div className="md:border-l md:border-r border-[#7510F7]">
               <p className="text-[#7510F7] text-xl font-normal py-2">
                 Technologies
               </p>

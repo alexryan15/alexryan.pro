@@ -8,12 +8,12 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 const Contact = () => {
   return (
     <div id="contact" className="w-full">
-      <div className=" max-w-[50rem] m-auto px-2 py-16 w-full">
+      <div className="w-11/12 md:w-full flex-1 place-items-center max-w-[50rem] m-auto px-2 py-16">
         <h2 className="text-3xl pb-8 text-center tracking-widest uppercase text-[#7510F7]">
           Contact
         </h2>
         <div className="border-2 rounded-xl justify-center gap-8">
-          <div className="w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
                 method="POST"

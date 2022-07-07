@@ -8,7 +8,7 @@ const Projects = () => {
         <h2 className="text-3xl pb-8 text-center tracking-widest uppercase text-[#7510F7]">
           Projects
         </h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 place-items-center">
           <ProjectItem
             title="Portfolio Website"
             description="This website that was built with React, Next.js, and Tailwind CSS."
@@ -21,12 +21,12 @@ const Projects = () => {
           />
           <ProjectItem
             title="Neetcode 150 Solutions"
-            description="Solutions to Neetcode's 150 Leetcode questions for interview prep."
+            description="Solutions to Neetcode's 150 Leetcode questions."
             src="https://github.com/alexryan-15/neetcode-150-solutions"
           />
           <ProjectItem
             title="Room Scheduler"
-            description="Built a mock room scheduler as a final course project with Java and MySQL. Source not available per University rules."
+            description="A mock room scheduler with Java and MySQL. Source not available per University rules."
           />
         </div>
       </div>
