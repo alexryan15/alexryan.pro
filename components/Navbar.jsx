@@ -1,10 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { useRouter } from "next/router";
+import NavLogo from "../public/logo.png"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -34,8 +34,13 @@ const Navbar = () => {
       }
     >
       {/* Normal nav links */}
-      <div className="bg-white flex justify-between items-center w-full h-full px-2 pr-8 2xl:px-16">
-        <div>{/* TODO: Insert navbar image */}</div>
+      <div className="bg-white flex justify-between items-center w-full h-full pr-8 2xl:px-10">
+        <Image
+          src={NavLogo}
+          alt='logo'
+          width='75'
+          height='75'
+        />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
