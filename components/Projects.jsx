@@ -20,7 +20,7 @@ const Projects = () => {
             src="https://github.com/alexryan-15/Record-Scraper"
           />
           <ProjectItem
-            title="Leetcode Blind 75"
+            title="Neetcode 150 Solutions"
             description="Solutions to Neetcode's 150 Leetcode questions for interview prep."
             src="https://github.com/alexryan-15/neetcode-150-solutions"
           />
