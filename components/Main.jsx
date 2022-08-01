@@ -29,7 +29,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://github.com/alexryan-15"
+              href="https://github.com/alexryan15"
               target="_blank"
               rel="noreferrer"
             >

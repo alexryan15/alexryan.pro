@@ -20,9 +20,8 @@ const Projects = () => {
             src="https://github.com/alexryan-15/Record-Scraper"
           />
           <ProjectItem
-            title="Neetcode 150 Solutions"
-            description="Solutions to Neetcode's 150 Leetcode questions."
-            src="https://github.com/alexryan-15/neetcode-150-solutions"
+            title="Dynamic Memory Allocator"
+            description="An implementation of malloc, realloc, and calloc. Source not available per University rules."
           />
           <ProjectItem
             title="Room Scheduler"

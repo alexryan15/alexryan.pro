@@ -1,6 +1,54 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 
 const Contact = () => {
+  const { executeRecaptcha } = useGoogleReCaptcha();
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmitForm = useCallback(
+    (e) => {
+      e.preventDefault();
+      if (!executeRecaptcha) {
+        console.log("Execute recaptcha not yet available");
+        return;
+      }
+      executeRecaptcha("enquiryFormSubmit").then((gReCaptchaToken) => {
+        console.log(gReCaptchaToken, "response Google reCaptcha server");
+        submitEnquiryForm(gReCaptchaToken);
+      });
+    },
+    [executeRecaptcha]
+  );
+
+  const submitEnquiryForm = (gReCaptchaToken) => {
+    fetch("/enquiry", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        message: message,
+        status: 0,
+        gRecaptchaToken: gReCaptchaToken,
+      }),
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res, "response from backend");
+        if (res?.status === "success") {
+          setNotification(res?.message);
+        } else {
+          setNotification(res?.message);
+        }
+      });
+  };
+
   return (
     <div id="contact" className="w-full">
       <div className="w-11/12 md:w-full flex-1 place-items-center max-w-[50rem] m-auto px-2 py-16">
@@ -13,6 +61,7 @@ const Contact = () => {
               <form
                 method="POST"
                 action="https://getform.io/f/52c99319-15fa-4fb0-a280-6feceb9a7fe7"
+                onSubmit={handleSubmitForm}
               >
                 <div className="gap-4 w-full py-2">
                   <div className="flex flex-col">
@@ -21,6 +70,8 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-HIGHLIGHT"
                       type="text"
                       name="name"
+                      value={name}
+                      onChange={(e) => setName(e?.target?.value)}
                       required
                     />
                   </div>
@@ -30,6 +81,8 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-HIGHLIGHT"
                     type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e?.target?.value)}
                     name="email"
                     required
                   />
@@ -39,6 +92,8 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300 focus:outline-none focus:border-HIGHLIGHT"
                     rows="8"
+                    value={message}
+                    onChange={(e) => setMessage(e?.target?.value)}
                     name="message"
                     required
                   ></textarea>

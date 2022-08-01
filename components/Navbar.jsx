@@ -30,7 +30,7 @@ const Navbar = () => {
       className={
         shadow
           ? "fixed w-full h-14 shadow-lg duration-300 z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          : "fixed w-full h-20 duration-300 z-[100]"
       }
     >
       {/* Normal nav links */}
@@ -126,7 +126,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/alexryan-15"
+                  href="https://github.com/alexryan15"
                   target="_blank"
                   rel="noreferrer"
                 >
