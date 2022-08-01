@@ -1,53 +1,10 @@
-import React, { useState, useCallback } from "react";
-import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import React, { useState } from "react";
 
 const Contact = () => {
-  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
-  const handleSubmitForm = useCallback(
-    (e) => {
-      e.preventDefault();
-      if (!executeRecaptcha) {
-        console.log("Execute recaptcha not yet available");
-        return;
-      }
-      executeRecaptcha("enquiryFormSubmit").then((gReCaptchaToken) => {
-        console.log(gReCaptchaToken, "response Google reCaptcha server");
-        submitEnquiryForm(gReCaptchaToken);
-      });
-    },
-    [executeRecaptcha]
-  );
-
-  const submitEnquiryForm = (gReCaptchaToken) => {
-    fetch("/enquiry", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name: name,
-        email: email,
-        message: message,
-        status: 0,
-        gRecaptchaToken: gReCaptchaToken,
-      }),
-    })
-      .then((res) => res.json())
-      .then((res) => {
-        console.log(res, "response from backend");
-        if (res?.status === "success") {
-          setNotification(res?.message);
-        } else {
-          setNotification(res?.message);
-        }
-      });
-  };
 
   return (
     <div id="contact" className="w-full">
@@ -61,7 +18,6 @@ const Contact = () => {
               <form
                 method="POST"
                 action="https://getform.io/f/52c99319-15fa-4fb0-a280-6feceb9a7fe7"
-                onSubmit={handleSubmitForm}
               >
                 <div className="gap-4 w-full py-2">
                   <div className="flex flex-col">
