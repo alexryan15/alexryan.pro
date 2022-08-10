@@ -21,7 +21,6 @@ const About = () => {
               <p>Python</p>
               <p>JavaScript</p>
               <p>Java</p>
-              <p>Go</p>
               <p>C#</p>
               <p>C</p>
             </div>
@@ -31,8 +30,8 @@ const About = () => {
               </p>
               <p>React</p>
               <p>Redux</p>
-              <p>.NET</p>
               <p>SQL</p>
+              <p>.NET</p>
             </div>
             <div>
               <p className="text-HIGHLIGHT text-xl font-normal py-2">
@@ -42,7 +41,6 @@ const About = () => {
               <p>Bitbucket</p>
               <p>Linux</p>
               <p>Jira</p>
-              <p>Nano</p>
               <p></p>
             </div>
           </div>
