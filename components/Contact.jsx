@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -21,6 +20,11 @@ const Contact = () => {
               >
                 <div className="gap-4 w-full py-2">
                   <div className="flex flex-col">
+                    <input
+                      type="hidden"
+                      name="_gotcha"
+                      className="hidden !important"
+                    />
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300 focus:outline-none focus:border-HIGHLIGHT"

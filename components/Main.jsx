@@ -13,9 +13,9 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">Computer Science Student</h1>
           <p className="py-4 text-black max-w-[70%] m-auto font-normal text-xl">
-            I am a student at Penn State studying Computer Science. I am
-            currently working as a Software Engineer Intern for Paylocity in
-            Chicago, IL.
+            I am a student at Penn State studying Computer Science. Upon
+            graduation I will be working for Paylocity as an Associate Software
+            Engineer.
           </p>
           {/* Social Links */}
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
