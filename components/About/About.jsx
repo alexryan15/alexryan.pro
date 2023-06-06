@@ -7,7 +7,7 @@ const About = () => {
   const tools = ["Github", "Bitbucket", "Linux", "Jira"];
 
   return (
-    <div id="about" className="w-full md:h-screen p-2 flexitems-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flexitems-center py-12">
       <div className="max-w-[60rem] m-auto gap-8">
         <div>
           <h1 className="text-center text-3xl py-4 tracking-widest text-HIGHLIGHT">
