@@ -6,14 +6,14 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const StaticColumn = () => {
   return (
-    <div className="h-screen">
-      <h1 className="py-4 text-gray-700 ">
-        Hi, I&#39;m <span className="text-HIGHLIGHT"> Alex</span>
-      </h1>
-      <h1 className="py-2 text-gray-700 ">Computer Science Student</h1>
-      <p className="py-4 text-black max-w-[70%] m-auto font-normal text-xl">
-        I am a student at Penn State studying Computer Science. Upon graduation
-        I will be working for Paylocity as an Associate Software Engineer.
+    <div className="h-screen text-left">
+      <p className="text-5xl font-bold md:px-12 text-HIGHLIGHT">Alex Ryan</p>
+      <p className="text-xl py-2 font-semibold md:px-12 text-gray-700">
+        Software Engineer at Paylocity
+      </p>
+      <p className="text-md font-normal py-2 md:px-12 text-gray-600 m-auto">
+        I am passionate Software Engineer currently working remotely for
+        Paylocity.
       </p>
       {/* Social Links */}
       <div className="flex items-center justify-between max-w-[330px] m-auto py-4">

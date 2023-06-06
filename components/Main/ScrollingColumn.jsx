@@ -5,7 +5,7 @@ import Projects from "../Projects";
 const ScrollingColumn = () => {
   return (
     <>
-      <About />
+      <About className="text-gray-700" />
       <Projects />
     </>
   );

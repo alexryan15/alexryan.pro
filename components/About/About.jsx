@@ -7,16 +7,16 @@ const About = () => {
   const tools = ["Github", "Bitbucket", "Linux", "Jira"];
 
   return (
-    <div id="about" className="w-full md:h-screen p-2 flexitems-center py-12">
-      <div className="max-w-[60rem] m-auto gap-8">
+    <div id="about" className="w-full md:px-12 flexitems-center">
+      <div className="m-auto">
         <div>
-          <h1 className="text-center text-3xl py-4 tracking-widest text-HIGHLIGHT">
+          <h1 className="text-left text-2xl tracking-widest text-HIGHLIGHT">
             ABOUT
           </h1>
-          <p className="py-8 pt-4 text-black text-lg text-center font-normal">
-            Hi, I&#39;m Alex. I&#39;m a passionate Associate Software Engineer
-            for Paylocity and a recent college graduate with a degree in
-            Computer Science from Penn State University.
+          <p className="py-4 pb-8 text-black text-md text-left font-normal">
+            Hi, I&#39;m Alex. In May of 2023, I graduated from Penn State
+            University with a degree in computer science. Since then, I have
+            been working for Paylocity as an Associate Software Engineer.
           </p>
           <div className="text-HIGHLIGHT font-normal max-w-[60rem] py-4 md:grid grid-cols-3 text-center rounded-xl border-2 border-HIGHLIGHT">
             <div>
