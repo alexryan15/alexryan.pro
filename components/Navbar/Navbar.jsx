@@ -122,7 +122,7 @@ const Navbar = () => {
                   image={<AiOutlineMail />}
                 />
                 <MobileSocialItem
-                  link="https://drive.google.com/file/d/1r9kJjlFDFbetGL1qI2ZaGTAnFHmZM55S/view?usp=sharing"
+                  link="https://drive.google.com/file/d/1MgDpQqDw06ZIn1AiHedqzSkxCJGkyxNY/view?usp=sharing"
                   image={<BsFillPersonLinesFill />}
                 />
               </div>
