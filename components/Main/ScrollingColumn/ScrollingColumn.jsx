@@ -1,6 +1,6 @@
 import React from "react";
-import About from "../About/About";
-import Projects from "../Projects";
+import About from "../../About/About";
+import Projects from "../../Projects";
 
 const ScrollingColumn = () => {
   return (
