@@ -7,7 +7,7 @@ const About = () => {
   const tools = ["Github", "Bitbucket", "Linux", "Jira"];
 
   return (
-    <div id="about" className="w-full pt-20 -mt-20 md:px-12">
+    <div id="about" className="w-full pt-36 -mt-36 md:px-12">
       <div>
         <div>
           <h1 className="text-left text-2xl tracking-widest text-HIGHLIGHT">

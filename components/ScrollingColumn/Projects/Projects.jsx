@@ -3,9 +3,11 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full md:px-12">
-      <div className="mx-auto py-24">
-        <h2 className="text-2xl text-left text-HIGHLIGHT">PROJECTS</h2>
+    <div id="projects" className="w-full pt-36 md:px-12">
+      <div className="mx-auto">
+        <h1 className="text-2xl text-left tracking-widest text-HIGHLIGHT">
+          PROJECTS
+        </h1>
         <div className="">
           <ProjectItem
             title="Portfolio Website"

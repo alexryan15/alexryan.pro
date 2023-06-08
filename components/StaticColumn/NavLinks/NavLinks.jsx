@@ -19,11 +19,26 @@ const NavLinks = () => {
         onSetActive={handleSetActive}
         className={`cursor-pointer py-1 ${
           activeLink === "about"
-            ? "translate-x-4 opacity-100 scale-x-110 duration-200"
+            ? "translate-x-4 opacity-100 scale-110 duration-200"
             : "opacity-20 hover:opacity-100 hover:translate-x-4 hover:scale-110 duration-200"
         } `}
       >
-        -- ABOUT
+        - ABOUT
+      </Link>
+      <Link
+        to="experiences"
+        spy={true}
+        smooth={false}
+        duration={200}
+        offset={0}
+        onSetActive={handleSetActive}
+        className={`cursor-pointer py-1 ${
+          activeLink === "experiences"
+            ? "translate-x-4 opacity-100 scale-110 duration-200"
+            : "opacity-20 hover:opacity-100 hover:translate-x-4 hover:scale-110 duration-200"
+        }`}
+      >
+        - EXPERIENCES
       </Link>
       <Link
         to="projects"
@@ -38,7 +53,7 @@ const NavLinks = () => {
             : "opacity-20 hover:opacity-100 hover:translate-x-4 hover:scale-110 duration-200"
         }`}
       >
-        -- PROJECTS
+        - PROJECTS
       </Link>
     </div>
   );
