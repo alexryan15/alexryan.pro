@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,8 +10,8 @@ html {
 
 @layer base {
   body {
-    @apply font-[Roboto];
-    @apply bg-white text-[#1f2937] tracking-wide;
+    @apply font-[Ubuntu];
+    @apply bg-white text-[#1f2937];
   }
 
   h1 {
