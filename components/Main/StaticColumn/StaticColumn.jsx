@@ -1,6 +1,6 @@
 import React from "react";
 import SocialItems from "./SocialItems/SocialItems";
-import StaticLinks from "./StaticLinks";
+import NavLinks from "./NavLinks/NavLinks";
 
 const StaticColumn = () => {
   return (
@@ -16,7 +16,7 @@ const StaticColumn = () => {
         </p>
       </div>
       <div>
-        <StaticLinks />
+        <NavLinks />
       </div>
       <div className="flex items-left justify-between w-full -ml-4 md:ml-auto mt-20 md:mt-auto md:mb-36 py-2 md:px-8">
         <SocialItems />
