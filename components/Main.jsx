@@ -8,7 +8,7 @@ const Main = () => {
       <div className="md:w-2/5 p-8 md:p-20 md:fixed">
         <StaticColumn />
       </div>
-      <div className="md:w-3/5 bg-white ml-auto p-8 md:p-20 md:overflow-y-auto">
+      <div className="md:w-3/5 ml-auto p-8 md:p-20 md:overflow-y-auto">
         <ScrollingColumn />
       </div>
     </div>

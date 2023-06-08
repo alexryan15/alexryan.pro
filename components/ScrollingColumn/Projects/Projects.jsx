@@ -5,9 +5,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full pt-36 md:px-12">
       <div className="mx-auto">
-        <h1 className="text-2xl text-left tracking-widest text-HIGHLIGHT">
-          PROJECTS
-        </h1>
+        <h1 className="HIGHLIGHT text-2xl text-left">PROJECTS</h1>
         <div className="">
           <ProjectItem
             title="Portfolio Website"

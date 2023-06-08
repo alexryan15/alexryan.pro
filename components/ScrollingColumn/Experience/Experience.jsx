@@ -5,9 +5,7 @@ const Experiences = () => {
   return (
     <div id="experiences" className="w-full pt-36 md:px-12">
       <div className="mx-auto">
-        <h1 className="text-left text-2xl tracking-widest text-HIGHLIGHT">
-          EXPERIENCES
-        </h1>
+        <h1 className="HIGHLIGHT text-left text-2xl">EXPERIENCE</h1>
         <ExperienceItem
           date="Starting July 2023"
           title="Associate Software Engineer"

@@ -9,7 +9,7 @@ const NavLinks = () => {
   };
 
   return (
-    <div className="flex flex-col justify-between uppercase md:px-12 mt-20 text-black text-md font-semibold">
+    <div className="flex flex-col justify-between uppercase md:px-12 mt-20 text-md font-semibold">
       <Link
         to="about"
         spy={true}

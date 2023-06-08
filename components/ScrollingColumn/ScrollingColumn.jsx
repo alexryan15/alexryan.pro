@@ -1,13 +1,13 @@
 import React from "react";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
-import Experiences from "./Experience/Experiences";
+import Experience from "./Experience/Experience";
 
 const ScrollingColumn = () => {
   return (
     <>
       <About className="text-gray-700" />
-      <Experiences />
+      <Experience />
       <Projects />
     </>
   );

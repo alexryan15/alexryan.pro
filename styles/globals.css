@@ -9,24 +9,20 @@ html {
 }
 
 @layer base {
+  .HIGHLIGHT {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600;
+  }
+
+  .BORDER {
+    @apply bg-gradient-to-r from-purple-400 to-pink-600 rounded-xl p-1;
+  }
+
   body {
     @apply font-[Ubuntu];
-    @apply bg-white text-[#1f2937];
+    @apply bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-gray-900 to-slate-900 text-white;
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-bold;
-  }
-
-  h2 {
-    @apply text-3xl sm:text-4xl font-bold;
-  }
-
-  li {
-    @apply cursor-pointer;
-  }
-
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl bg-HIGHLIGHT hover:bg-[#003d66] text-white;
+    @apply HIGHLIGHT text-4xl sm:text-5xl md:text-6xl font-bold tracking-widest;
   }
 }

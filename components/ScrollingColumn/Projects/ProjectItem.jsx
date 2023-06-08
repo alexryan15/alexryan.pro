@@ -8,13 +8,10 @@ const ProjectItem = ({ title, description, src }) => {
   }
 
   return (
-    <div
-      className="text-lg items-center w-full shadow-lg shadow-gray-400 
-                    rounded-xl mb-4 mt-4 p-4 border-2 hover:border-HIGHLIGHT hover:scale-105 duration-500"
-    >
-      <h3 className="text-HIGHLIGHT">{title}</h3>
-      <p className="font-normal py-2">{description}</p>
-      <a className="text-HIGHLIGHT" href={src} target="_blank" rel="noreferrer">
+    <div className="text-base text-left items-center w-full py-2 my-2">
+      <h3 className="">{title}</h3>
+      <p className="font-normal py-2 text-gray-300">{description}</p>
+      <a className="" href={src} target="_blank" rel="noreferrer">
         {srcCheck}
       </a>
     </div>
