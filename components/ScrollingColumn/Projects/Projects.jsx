@@ -3,10 +3,10 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full pt-36 md:px-12">
+    <div id="projects" className="w-full pt-36 md:px-12 mb-28">
       <div className="mx-auto">
         <h1 className="HIGHLIGHT text-2xl text-left">PROJECTS</h1>
-        <div className="">
+        <div className="flex flex-col">
           <ProjectItem
             title="Portfolio Website"
             description="This website that was built with React, Next.js, and Tailwind CSS."

@@ -6,7 +6,7 @@ const ExperienceItem = ({ date, title, company, description }) => {
       <div className="w-1/3 opacity-70 text-sm">{date}</div>
       <div className="w-2/3 text-base">
         {title} - {company} <br />
-        <p className="text-sm py-2">{description}</p>
+        <p className="text-sm py-2 text-gray-400">{description}</p>
       </div>
     </div>
   );

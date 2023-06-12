@@ -3,7 +3,7 @@ import ExperienceItem from "./ExperienceItem";
 
 const Experiences = () => {
   return (
-    <div id="experiences" className="w-full pt-36 md:px-12">
+    <div id="experience" className="w-full pt-36 md:px-12">
       <div className="mx-auto">
         <h1 className="HIGHLIGHT text-left text-2xl">EXPERIENCE</h1>
         <ExperienceItem

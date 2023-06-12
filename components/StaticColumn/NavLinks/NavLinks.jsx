@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const NavLinks = () => {
   const [activeLink, setActiveLink] = useState("about");
@@ -23,22 +24,28 @@ const NavLinks = () => {
             : "opacity-20 hover:opacity-100 hover:translate-x-4 hover:scale-110 duration-200"
         } `}
       >
-        - ABOUT
+        <div className="flex">
+          <FaLongArrowAltRight className="translate-y-1" />
+          <p className="translate-x-2">ABOUT</p>
+        </div>
       </Link>
       <Link
-        to="experiences"
+        to="experience"
         spy={true}
         smooth={false}
         duration={200}
         offset={0}
         onSetActive={handleSetActive}
         className={`cursor-pointer py-1 ${
-          activeLink === "experiences"
+          activeLink === "experience"
             ? "translate-x-4 opacity-100 scale-110 duration-200"
             : "opacity-20 hover:opacity-100 hover:translate-x-4 hover:scale-110 duration-200"
         }`}
       >
-        - EXPERIENCES
+        <div className="flex">
+          <FaLongArrowAltRight className="translate-y-1" />
+          <p className="translate-x-2">EXPERIENCE</p>
+        </div>
       </Link>
       <Link
         to="projects"
@@ -53,7 +60,10 @@ const NavLinks = () => {
             : "opacity-20 hover:opacity-100 hover:translate-x-4 hover:scale-110 duration-200"
         }`}
       >
-        - PROJECTS
+        <div className="flex">
+          <FaLongArrowAltRight className="translate-y-1" />
+          <p className="translate-x-2">PROJECTS</p>
+        </div>
       </Link>
     </div>
   );

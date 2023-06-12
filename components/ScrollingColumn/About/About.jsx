@@ -16,18 +16,20 @@ const About = () => {
             University with a degree in computer science. Since then, I have
             been working for Paylocity as an Associate Software Engineer.
           </p>
-          <div className="font-normal max-w-[60rem] md:grid grid-cols-3 text-center">
-            <div>
-              <p className="HIGHLIGHT text-xl py-2">Languages</p>
-              <AboutItem items={languages} />
-            </div>
-            <div>
-              <p className="HIGHLIGHT text-xl py-2">Technologies</p>
-              <AboutItem items={technologies} />
-            </div>
-            <div>
-              <p className="HIGHLIGHT text-xl py-2">Dev Tools</p>
-              <AboutItem items={tools} />
+          <div className="BUBBLE font-normal max-w-[60rem] text-center">
+            <div className="md:grid grid-cols-3 bg-gray-900 rounded-md p-8">
+              <div>
+                <p className="text-xl py-2">Languages</p>
+                <AboutItem items={languages} />
+              </div>
+              <div>
+                <p className="text-xl py-2">Technologies</p>
+                <AboutItem items={technologies} />
+              </div>
+              <div>
+                <p className="text-xl py-2">Dev Tools</p>
+                <AboutItem items={tools} />
+              </div>
             </div>
           </div>
         </div>
