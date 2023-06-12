@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,24 +9,28 @@ html {
 }
 
 @layer base {
+  .GRADIENT {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-fuchsia-500;
+  }
+
+  .BORDER {
+    @apply bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 rounded-md p-0.5;
+  }
+
+  .BB {
+    @apply bg-rose-400 rounded-md p-0.5;
+  }
+
+  .BUTTON {
+    @apply text-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 hover:bg-gradient-to-br font-normal tracking-widest rounded-lg text-base px-4 py-2 text-center mr-2 my-2;
+  }
+
   body {
-    @apply font-[Roboto];
-    @apply bg-white text-[#1f2937] tracking-wide;
+    @apply font-[Ubuntu];
+    @apply bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-gray-900 to-slate-900 text-white overscroll-none;
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-bold;
-  }
-
-  h2 {
-    @apply text-3xl sm:text-4xl font-bold;
-  }
-
-  li {
-    @apply cursor-pointer;
-  }
-
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl bg-HIGHLIGHT hover:bg-[#003d66] text-white;
+    @apply GRADIENT text-4xl sm:text-5xl md:text-6xl font-bold tracking-widest;
   }
 }
