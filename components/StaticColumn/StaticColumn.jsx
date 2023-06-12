@@ -6,7 +6,7 @@ const StaticColumn = () => {
   return (
     <div className="flex flex-col md:h-screen text-left">
       <div className="justify-between">
-        <p className="HIGHLIGHT text-5xl font-bold py-2 md:px-12">Alex Ryan</p>
+        <p className="GRADIENT text-5xl font-bold py-2 md:px-12">Alex Ryan</p>
         <p className="text-xl py-2 font-semibold md:px-12">
           Software Engineer at Paylocity
         </p>

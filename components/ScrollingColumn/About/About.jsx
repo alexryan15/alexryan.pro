@@ -16,7 +16,7 @@ const About = () => {
             University with a degree in computer science. Since then, I have
             been working for Paylocity as an Associate Software Engineer.
           </p>
-          <div className="BUBBLE font-normal max-w-[60rem] text-center">
+          <div className="BB font-normal max-w-[60rem] text-center">
             <div className="md:grid grid-cols-3 bg-gray-900 rounded-md p-8">
               <div>
                 <p className="text-xl py-2">Languages</p>
