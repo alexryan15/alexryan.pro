@@ -10,13 +10,13 @@ const About = () => {
     <div id="about" className="w-full pt-36 -mt-36 md:px-12 text-left">
       <div>
         <div>
-          <h1 className="text-2xl">ABOUT</h1>
+          <h1>ABOUT</h1>
           <p className="py-4 pb-8 text-md font-normal">
             Hi, I&#39;m Alex. In May of 2023, I graduated from Penn State
             University with a degree in computer science. Since then, I have
             been working for Paylocity as an Associate Software Engineer.
           </p>
-          <div className="BB font-normal max-w-[60rem] text-center">
+          <div className="BORDER font-normal max-w-[60rem] text-center">
             <div className="md:grid grid-cols-3 bg-gray-900 rounded-md p-8">
               <div>
                 <p className="text-xl py-2">Languages</p>
