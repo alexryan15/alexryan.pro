@@ -5,7 +5,7 @@ const Experiences = () => {
   return (
     <div id="experience" className="w-full pt-36 md:px-12">
       <div className="mx-auto">
-        <h1 className="GRADIENT text-left text-2xl">EXPERIENCE</h1>
+        <h1>EXPERIENCE</h1>
         <ExperienceItem
           date="Starting July 2023"
           title="Associate Software Engineer"
