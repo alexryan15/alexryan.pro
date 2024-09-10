@@ -11,8 +11,7 @@ const StaticColumn = () => {
           Software Engineer at Paylocity
         </p>
         <p className="text-md font-normal py-2 md:px-12 m-auto">
-          I am passionate Software Engineer currently working remotely for
-          Paylocity.
+          I am a Software Engineer working remotely on the Learning Management Solutions team at Paylocity.
         </p>
       </div>
       <div>

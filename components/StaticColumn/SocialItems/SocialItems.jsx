@@ -20,7 +20,7 @@ const SocialItems = () => {
         image={<AiOutlineMail size={28} />}
       />
       <SocialItem
-        link="https://drive.google.com/file/d/1MgDpQqDw06ZIn1AiHedqzSkxCJGkyxNY/view?usp=sharing"
+        link="https://drive.google.com/file/d/15TsNLwST7O1Y9rOk1e0HuScLf3RNH--r/view?usp=sharing"
         image={<BsFillPersonLinesFill size={28} />}
       />
     </div>

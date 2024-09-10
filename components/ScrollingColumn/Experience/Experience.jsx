@@ -7,10 +7,17 @@ const Experiences = () => {
       <div className="mx-auto">
         <h1>EXPERIENCE</h1>
         <ExperienceItem
-          date="Starting July 2023"
+          date="August 2024 - Present"
+          title="Software Engineer"
+          company="Paylocity"
+          description="Continuing development for Learning Management in both web application and mobile systems."
+        />
+        <ExperienceItem
+          date="July 2023 - August 2024"
           title="Associate Software Engineer"
           company="Paylocity"
-          description="To be determined..."
+          description="Assisted in the development and maintenance of Learning Management Systems valued at over $140
+          million, utilizing React/JavaScript for the front-end and C#/.NET for the back-end. Specialized in API development around SCORM-based content and streamlined user experience."
         />
         <ExperienceItem
           date="May 2022 - August 2022"
