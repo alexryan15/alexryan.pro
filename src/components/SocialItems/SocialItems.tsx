@@ -3,10 +3,11 @@ import SocialItem from "./SocialItem";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import "./SocialItems.css";
 
 const SocialItems = () => {
   return (
-    <div className="flex justify-between items-left">
+    <div className="social-items">
       <SocialItem
         link="https://github.com/alexryan15"
         image={<FaGithub size={28} />}

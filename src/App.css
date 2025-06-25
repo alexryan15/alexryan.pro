@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section {
+  text-align: center;
+  width: 100%;
+}
+
+.content-columns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.left-column,
+.right-column {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+@media (max-width: 1000px) {
+  .content-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}

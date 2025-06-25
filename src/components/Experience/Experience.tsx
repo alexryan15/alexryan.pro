@@ -1,11 +1,12 @@
 import React from "react";
 import ExperienceItem from "./ExperienceItem";
+import "./Experience.css";
 
 const Experiences = () => {
   return (
-    <div id="experience" className="w-full pt-36 md:px-12">
-      <div className="mx-auto">
-        <h1>EXPERIENCE</h1>
+    <div id="experience">
+      <div>
+        <h1>Experience</h1>
         <ExperienceItem
           date="August 2024 - Present"
           title="Software Engineer"

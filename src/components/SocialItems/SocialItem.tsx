@@ -1,9 +1,9 @@
 import React from "react";
 
-const SocialItem = (props) => {
+const SocialItem = ( props: any ) => {
   return (
     <a href={props.link} target="_blank" rel="noreferrer">
-      <div className="p-4 cursor-pointer opacity-50 hover:opacity-100 hover:scale-105 ease-in duration-200">
+      <div>
         {props.image}
       </div>
     </a>
