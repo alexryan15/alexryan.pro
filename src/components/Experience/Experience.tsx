@@ -16,7 +16,7 @@ const Experience = () => {
         <p className="experience-description">
           I have been working as a full-stack software engineer at <span className="company">Paylocity</span> for over 2 years, 
           contributing to both frontend and backend development. While I enjoy all aspects of being a developer,
-          my passion lies in the background, particularly in API design, system scalability, and performance. 
+          my passion lies in the backend, particularly in API design, system scalability, and performance. 
           I enjoy building robust, maintainable systems that can handle real-world load. Here are some of the tools that I frequently use:
         </p>
         <div className="images">
