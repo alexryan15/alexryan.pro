@@ -1,3 +1,9 @@
+#projects h1 {
+  border-bottom: 2px solid #e0e7ff;
+  padding-bottom: 0.3rem;
+  display: inline-block;
+}
+
 .project-item {
   padding-left: 1rem;
   padding-right: 1rem;

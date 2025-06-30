@@ -1,46 +1,30 @@
-.experience-item {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+#experience h1 {
+  border-bottom: 2px solid #e0e7ff;
+  padding-bottom: 0.3rem;
+  display: inline-block;
 }
 
-.experience-date {
-  font-size: 0.9rem;
-  color: #dbeafe;
-  min-width: 120px;
-  font-weight: 600;
+#experience img:hover {
+  transform: scale(1.2);
+  transition-duration: 100ms;
 }
 
-.experience-details {
-  flex: 1;
-}
-
-.experience-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #f3f4f6;
-}
-
-.experience-title .company {
-  font-weight: 500;
+.company {
+  font-weight: 1000;
   color: #d97823;
 }
 
 .experience-description {
   margin-top: 0.5rem;
   color: #e0e7ff;
-  line-height: 1.5;
+  font-size: 1.25rem;
+  line-height: 3;
+  letter-spacing: 0.5px;
 }
 
-@media (min-width: 768px) {
-  .experience-item {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .experience-date {
-    text-align: right;
-  }
+.images {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
