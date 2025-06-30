@@ -10,18 +10,19 @@ const Projects = () => {
         <div>
           <ProjectItem
             title="Portfolio Website"
-            description="This website that was built with React, Next.js, and Tailwind CSS."
-            src="https://github.com/alexryan-15/alexryan-15.github.io"
+            description="This website that was built with React."
+            src="https://github.com/alexryan15/alexryan.pro"
+          />
+          <ProjectItem
+            title="KeyV-Cli"
+            description="Simple key-value storage solution in the command line built with TypeScript and published through NPM."
+            src="https://github.com/alexryan15/keyv-cli"
           />
           <ProjectItem
             title="Record Scraper"
             description="A web scraper build with Python and Beautiful Soup."
-            src="https://github.com/alexryan-15/Record-Scraper"
+            src="https://github.com/alexryan15/Record-Scraper"
           />
-          {/* <ProjectItem
-            title="Dynamic Memory Allocator"
-            description="An implementation of malloc, realloc, and calloc. Source not available per University rules."
-          /> */}
         </div>
       </div>
     </div>
